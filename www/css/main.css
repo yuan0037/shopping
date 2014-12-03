@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+/*    padding: 0;*/
+}
+h1 { font: bold 65px/60px Helvetica, Arial, Sans-serif; text-align: center; color: #eee; text-shadow: 0px 2px 6px #333; }
+
+h2 {font: italic 45px Georgia, Times, Serif;  text-align: center; color: #bfe1f1; text-shadow: 0px 2px 6px #333; }
+
+
+body{ 
+    background: #1d1d1d; 
+    color: #fff; 
+/*    background-image:url("../img/bg.png"); */
+    background-repeat:repeat-x; 
+}
+
+html, body{
+    height: 100%;
+}
+
+#mainContent{
+  min-height: 100%;
+  /* equal to footer height */
+	margin-bottom: -150px; 
+}
+#mainContent:after {
+  content: "";
+  display: block;
+}
+#footer, #mainContent:after {
+  /* .push must be the same height as footer */
+	height: 150px; 
+}
+
+#footer{
+    text-align:center;
+    background-color: #ff0000;
+}
+form{
+    height:100%;
+}
+#shopingList {
+    width:320px; 
+}
+#shopingList ol {
+    font-style:italic;
+    font-family:Georgia, Times, serif;
+    font-size:24px; 
+    color:#bfe1f1;  
+}
+
+#shopingList ol li p em { display:block; }
+
+li{
+    line-height: 1.5;
+    padding: 0.5rem 2rem;
+   
+    background-color: #507F5C;
+    border-top:1px solid #00CC32;
+    border-bottom: 1px solid #00CC32;
+}
+.selected{
+    text-decoration: line-through; 
+    color: #FF0000;
+}
+
+img{
+    cursor: pointer;
+}
+input[type="button"]{
+    border: medium none;
+    width: 5rem;
+    height: 2rem;
+    margin-bottom: 5px;
+    background-color: #8CFC19;
+}
+input[type="text"]{
+    float: left;
+    text-align: left;
+    width: 15rem;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    margin: -10px 0px 3rem 5rem;
+    color: #333;
+}
+
+
+
+/*#shoppingList li{ margin: 3px; padding: 0.4em; font-size: 1.4em; height: 18px; }*/
