@@ -22,6 +22,7 @@ html, body{
   min-height: 100%;
   /* equal to footer height */
 	margin-bottom: -150px; 
+    font-size: 2rem;
 }
 #mainContent:after {
   content: "";
@@ -69,7 +70,7 @@ img{
 }
 input[type="button"]{
     border: medium none;
-    width: 5rem;
+    width: 8rem;
     height: 2rem;
     margin-bottom: 5px;
     background-color: #8CFC19;
@@ -77,8 +78,8 @@ input[type="button"]{
 input[type="text"]{
     float: left;
     text-align: left;
-    width: 15rem;
-    font-size: 1.2rem;
+    width: 18rem;
+    font-size: 1.5rem;
     padding: 0.5rem;
     margin: -10px 0px 3rem 5rem;
     color: #333;
