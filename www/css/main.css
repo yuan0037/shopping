@@ -10,7 +10,6 @@ h2 {font: italic 45px Georgia, Times, Serif;  text-align: center; color: #bfe1f1
 body{ 
     background: #1d1d1d; 
     color: #fff; 
-/*    background-image:url("../img/bg.png"); */
     background-repeat:repeat-x; 
 }
 
@@ -18,11 +17,18 @@ html, body{
     height: 100%;
 }
 
+ul{
+    list-style-type:none;
+    list-style-position: outside;
+    padding: 0;
+    margin:0;
+}
 #mainContent{
   min-height: 100%;
   /* equal to footer height */
-	margin-bottom: -150px; 
-    font-size: 2rem;
+	margin-bottom: -200px; 
+    margin-top: 1rem;
+    font-size: 3rem;
 }
 #mainContent:after {
   content: "";
@@ -30,7 +36,7 @@ html, body{
 }
 #footer, #mainContent:after {
   /* .push must be the same height as footer */
-	height: 150px; 
+	height: 200px; 
 }
 
 #footer{
@@ -43,22 +49,28 @@ form{
 #shopingList {
     width:320px; 
 }
-#shopingList ol {
+#shopingList ul {
     font-style:italic;
     font-family:Georgia, Times, serif;
-    font-size:24px; 
+    font-size:3rem; 
     color:#bfe1f1;  
 }
 
-#shopingList ol li p em { display:block; }
+img{
+    margin: 2rem 3.5rem 1rem 0.5rem;
+}
 
 li{
-    line-height: 1.5;
-    padding: 0.5rem 2rem;
-   
+    line-height: 4.5rem;
+    padding: 0.5rem 0rem;
+   margin-left: 0px;
     background-color: #507F5C;
     border-top:1px solid #00CC32;
     border-bottom: 1px solid #00CC32;
+    font-size: 4rem;
+}
+li img[id="accept"]{
+    float:right;
 }
 .selected{
     text-decoration: line-through; 
@@ -70,21 +82,24 @@ img{
 }
 input[type="button"]{
     border: medium none;
-    width: 8rem;
-    height: 2rem;
-    margin-bottom: 5px;
+    width: 13%;
+    height: 4rem;
+    margin: 2.2rem 0rem 3rem 5rem;
     background-color: #8CFC19;
+     font-size: 2.0rem;
 }
 input[type="text"]{
     float: left;
     text-align: left;
-    width: 18rem;
-    font-size: 1.5rem;
+    width: 61%;
+    font-size: 3.0rem;
     padding: 0.5rem;
-    margin: -10px 0px 3rem 5rem;
+    margin: 2rem 0rem 3rem 5rem;
     color: #333;
 }
 
-
+#shoppingList{
+    background-color: #507F5C;
+}
 
 /*#shoppingList li{ margin: 3px; padding: 0.4em; font-size: 1.4em; height: 18px; }*/
