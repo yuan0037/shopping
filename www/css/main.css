@@ -57,13 +57,13 @@ form{
 }
 
 img{
-    margin: 2rem 3.5rem 1rem 0.5rem;
+    margin: 2.5rem 3.5rem 0rem 0.5rem;
 }
 
 li{
-    line-height: 4.5rem;
-    padding: 0.5rem 0rem;
-   margin-left: 0px;
+    line-height: 3.5rem;
+    padding: 0rem 0rem 2.5rem 0;
+    margin-left: 0px;
     background-color: #507F5C;
     border-top:1px solid #00CC32;
     border-bottom: 1px solid #00CC32;
