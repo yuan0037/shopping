@@ -2,9 +2,9 @@
 <widget id="ca.edumedia.m.yuan0037.shopping" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>yuan0037-shopping</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        A simple shopping list.
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
+    <author email="yuan0037@algonquinlive.com" href="https://github.com/yuan0037/shopping">
         Apache Cordova Team
     </author>
     <content src="index.html" />
